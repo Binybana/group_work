@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 800px;
+    background-image: url(1.JPG);
+   background-size: cover;
+    background-color: rgb(37, 36, 30);
+    background-clip: ;
+}
+.navigation_bar{
+    width: 1200px;
+    height: 80px;
+    padding: auto;
+}
+.logo{
+    color: rgb(135, 240, 231);
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-top: auto;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu{
+    padding-right: 80px;
+    padding-top: 15px;
+    color: rgb(240, 149, 31);
+    font-size: 20px;
+     font-family: Impact;
+}
+ul{
+    justify-content: right;
+    float: right;
+    display: flex;
+    align-content: right;
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+ul li a:hover{
+    color: #f1430e;
+}
+.regestrarion{
+    width: 350px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(36, 34, 56, 0.8)50%,rgba(36, 34, 56, 0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+    border-radius: 10px;
+    padding: 25px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+.box{
+    color: #8f8f8d;
+    width: 325px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    padding-left: 15px;
+    background: transparent;
+    border-color: beige;
+    font-size: 20px;
+}
+#location{
+    width: 343px;
+}
+.sign{
+    color: rgb(5, 35, 61);
+    background: linear-gradient(to top, rgba(189, 184, 235, 0.8)50%,rgba(189, 184, 235, 0.8)50%);
+    margin-left: 100px;
+    margin-top: 180px;
+    top: 1000px;
+    right: 100px;
+    width: 850px;
+    height: 300px;
+    font-size: 20px;
+    font-family: 'Arial Narrow';
+    text-decoration: none;
+    text-align: center;
+    text-indent: 10px;
+    padding-left: 0;
+    font-weight: bold;
+}
+h3{
+    color: rgb(17, 27, 83);
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Impact;
+    font-size: 40px;
+}
+#subscribe{
+    color: black;
+    align-content: center;
+    padding-top: 0px;
+    
+}
+.btn{
+    background-color: aqua;
+    width: 343px;
+    height: 50px;
+    font-size: 17px;
+}
+#signup{
+    margin-top: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: rgb(33, 14, 68);
+    align-content: center;
+}
+#signup :hover{
+    border-radius: 50px;
+    border-color: rgb(255, 0, 0);
+    font-size: 45px;
+    color: #f1430e;
+}
+.text{
+    color: aliceblue;
+    
+}
+.testimony{
+    width: 1400px;
+    height: 300px;
+    background-color: rgb(4, 26, 46);
+    margin-top: 0px;
+    z-index: 5;
+}
+#one{
+    width: 1400px;
+    height: 300px;
+}
